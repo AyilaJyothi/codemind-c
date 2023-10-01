@@ -1,16 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,odd=0;
+    int n,x[20],odd=0,i;
     scanf("%d",&n);
-    int a[n];
     for(i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d",&x[i]);
     }
     for(i=0;i<n;i++)
     {
-        if(a[i]%2!=0)
+        if(x[i]%2!=0)
         {
             odd++;
         }
